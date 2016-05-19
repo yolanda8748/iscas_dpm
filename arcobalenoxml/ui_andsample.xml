@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="temp">
+  <block type="controls_and" id="XzbSPE)jQ_UhZUF{L!a;" x="363" y="163">
+    <statement name="elements">
+      <block type="text_deviceA" id="H^M,)kSmaDD;,2,*RyCA">
+        <next>
+          <block type="text_deviceB" id="^WgLEEB^3.RD4J772^gG"></block>
+        </next>
+      </block>
+    </statement>
+    <next>
+      <block type="text_deviceC" id="0O1UzM.DbV9u^Dojo%rM">
+        <next>
+          <block type="text_deviceD" id="r*9G[W/?y.X6jFgA%c)l"></block>
+        </next>
+      </block>
+    </next>
+  </block>
+</project>

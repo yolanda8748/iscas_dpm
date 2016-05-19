@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project s="temp">
+  <block type="text_deviceA" id="v7ulh5TL`_:N!A);2Ts0" x="237" y="88">
+    <next>
+      <block type="controls_repeat_for" id="=1edbnZd6[va8-!MrE!6">
+        <value name="TIMES">
+          <shadow type="math_number" id="D|%-=c7SzjKit=|x9vt2">
+            <field name="NUM">10</field>
+          </shadow>
+        </value>
+        <statement name="elements">
+          <block type="text_deviceB" id="/#u]Q.IM#!C-%PKG.i/?">
+            <next>
+              <block type="text_deviceC" id="H0,y!m./dNgU}oIurRY+"></block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="text_deviceD" id="D99~9*[js4{0/Z4u|xtK"></block>
+        </next>
+      </block>
+    </next>
+  </block>
+ </project>

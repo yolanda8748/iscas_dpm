@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cdl name="temp">
+  <list name="component">
+    <component name="text_deviceA">
+      <type>Switch</type>
+      <value></value>
+    </component>
+    <component name="text_deviceB">
+      <type>LED_1</type>
+      <value></value>
+    </component>
+    <component name="text_deviceC">
+      <type>LED_2</type>
+      <value></value>
+    </component>
+    <component name="text_deviceD">
+      <type>LED_3</type>
+      <value></value>
+    </component>
+    <component name="text_deviceE">
+      <type>HT</type>
+      <value></value>
+    </component>
+  </list>
+  <list name="connection">
+    <connection name="con_1">
+      <from name="text_deviceA"/>
+      <to name="text_deviceB"/>
+    </connection>
+    <connection name="con_2">
+      <from name="text_deviceB"/>
+      <to name="text_deviceC"/>
+    </connection>
+    <connection name="con_3">
+      <from name="text_deviceC"/>
+      <to name="text_deviceD"/>
+    </connection>
+    <connection name="con_4">
+      <from name="text_deviceD"/>
+      <to name="text_deviceE"/>
+    </connection>
+  </list>
+  <list name="rule">
+    <rule name="timeout">
+      <from name="text_deviceB"/>
+      <to name="text_deviceD"/>
+      <value>5</value>
+    </rule>
+  </list>
+</cdl>

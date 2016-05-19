@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cdl name="temp">
+  <list name="component">
+    <component name="text_deviceA">
+      <type>Switch</type>
+      <value></value>
+    </component>
+    <component name="Delay">
+      <type>LED_1</type>
+      <value>10</value>
+    </component>
+    <component name="text_deviceB">
+      <type>LED_2</type>
+      <value></value>
+    </component>
+  </list>
+  <list name="connection">
+    <connection name="con_1">
+      <from name="text_deviceA"/>
+      <to name="Delay"/>
+    </connection>
+    <connection name="con_2">
+      <from name="Delay"/>
+      <to name="text_deviceB"/>
+    </connection>
+  </list>
+</cdl>

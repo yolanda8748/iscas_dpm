@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="temp">
+  <block type="text_deviceA" id="z~+tkp7z.xbB#BIs0y6D" x="338" y="63">
+    <next>
+      <block type="controls_repeat_while" id="Lx1Yh:vl|8{eIwo|vzXG">
+        <statement name="condition">
+          <block type="controls_and" id="vgFP3_IsRW(;_4j%:elu">
+            <statement name="elements">
+              <block type="text_deviceB" id="yBIP_d#a#+z.b~3m3Imy">
+                <next>
+                  <block type="text_deviceC" id="16z|LVSkP1:|@(y:Y0va"></block>
+                </next>
+              </block>
+            </statement>
+          </block>
+        </statement>
+        <statement name="body">
+          <block type="text_deviceD" id="lWuHWRS7:infb|J/]w.g">
+            <next>
+              <block type="text_deviceE" id="S.#40?v%apYgPXk4^jK9"></block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="text_deviceF" id="u*AYw#{/.!!#`1_Y)#Fz"></block>
+        </next>
+      </block>
+    </next>
+  </block>
+</project>

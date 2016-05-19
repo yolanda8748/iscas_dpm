@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="temp">
+  <list>
+    <block s="controls_or">
+      <elements s="statement">
+        <block s="text_deviceA"/>
+        <block s="text_deviceB"/>
+      </elements>
+    </block>
+    <block s="text_deviceC"/>
+    <block s="text_deviceD"/>
+  </list>
+</project>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="temp">
+  <list>
+    <block s="text_deviceA"/>
+    <block s="text_print_timeout">
+      <elements s="abr">5</elements>
+      <elements s="statement">
+        <block s="text_deviceB"/>
+        <block s="text_deviceC"/>
+        <block s="text_deviceD"/>
+      </elements>
+    </block>
+    <block s="text_deviceE"/>
+  </list>
+</project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="temp">
+  <block type="text_deviceA" id="ni|mw`]t-%@BWi_^K%bG" x="413" y="113">
+    <next>
+      <block type="text_print_timeout" id="s{0Ny]MA0RT;#[@D00tU">
+        <value name="TIMES">
+          <shadow type="math_number" id="e]^umkimzb8^lF?Q3)Of">
+            <field name="NUM">5</field>
+          </shadow>
+        </value>
+        <statement name="elements">
+          <block type="text_deviceB" id="6+a@,asFl/3HB@vg.Fi9">
+            <next>
+              <block type="text_deviceC" id="!gITCCg5{WKj``U)iGMo">
+                <next>
+                  <block type="text_deviceD" id="XL]CeuDyz:-9VstB;;En"></block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="text_deviceE" id="QiY0;`T7W3Sp=NqXECL2"></block>
+        </next>
+      </block>
+    </next>
+  </block>
+</project>

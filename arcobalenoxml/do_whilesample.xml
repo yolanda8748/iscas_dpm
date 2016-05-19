@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cdl name="temp">
+  <list name="component">
+    <component name="text_deviceA">
+      <type>Switch</type>
+      <value></value>
+    </component>
+    <component name="text_deviceB">
+      <type>LED_1</type>
+      <value></value>
+    </component>
+    <component name="text_deviceC">
+      <type>LED_2</type>
+      <value></value>
+    </component>
+    <component name="text_deviceD">
+      <type>LED_3</type>
+      <value></value>
+    </component>
+    <component name="text_deviceE">
+      <type>HT</type>
+      <value></value>
+    </component>
+    <component name="text_deviceF">
+      <type>HT</type>
+      <value></value>
+    </component>
+    <component name="W1">
+      <type>VDEV</type>
+      <value></value>
+    </component>
+    <component name="W2">
+      <type>VDEV</type>
+      <value></value>
+    </component>
+  </list>
+  <list name="connection">
+    <connection name="con_1">
+      <from name="text_deviceA"/>
+      <from name="text_deviceB"/>
+      <from name="text_deviceC"/>
+      <to name="W1"/>
+    </connection>
+    <connection name="con_2">
+      <from name="W1"/>
+      <to name="text_deviceD"/>
+    </connection>
+    <connection name="con_3">
+      <from name="W1"/>
+      <to name="text_deviceF"/>
+    </connection>
+    <connection name="con_4">
+      <from name="text_deviceD"/>
+      <to name="text_deviceE"/>
+    </connection>
+    <connection name="con_5">
+      <from name="text_deviceE"/>
+      <from name="text_deviceB"/>
+      <from name="text_deviceC"/>
+      <to name="W2"/>
+    </connection>
+    <connection name="con_6">
+      <from name="W2"/>
+      <to name="text_deviceD"/>
+    </connection>
+    <connection name="con_7">
+      <from name="W2"/>
+      <to name="text_deviceF"/>
+    </connection>
+  </list>
+</cdl>
